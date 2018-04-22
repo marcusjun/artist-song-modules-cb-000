@@ -3,6 +3,7 @@ module Memorable
     def reset_all
       self.all.clear
 
+      ##############################
       #Code that didn't work:
       #@@songs.clear
       #self.clear
@@ -15,6 +16,7 @@ module Memorable
     def count
       self.all.count
 
+      ##############################
       #Code that didn't work:
       #Artist.artists.count
       #@@artists.count
