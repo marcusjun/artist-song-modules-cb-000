@@ -2,8 +2,8 @@ require 'pry'
 
 class Song
 
-  extend Memorable::ClassMethods
-  include Memorable::InstanceMethods
+  extend Findable, Memorable::ClassMethods
+  include Paramable, Memorable::InstanceMethods
 
   extend Findable
   include Paramable
